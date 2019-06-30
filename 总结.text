@@ -1,0 +1,30 @@
+1.搭建webpack+react开发环境
+	①npm install webpack webpack-dev-server --save-dev
+	②npm i react react-dom --save
+	③plugins
+使用 html 模板（需要npm i html-webpack-plugin--save-dev），这样可以将输出的文件名
+entry
+
+new webpack.DefinePlugin({
+	'process.env':{
+		'NODE_ENV':JSON.STRING
+	}
+})
+
+
+2.react 基础
+生命周期，jsx基本语法，数据传递(props,state),木偶组件，智能组件
+
+
+3.React性能优化方案
+4.react-router
+5.redux基础
+6.使用fetch
+7.开发首页
+8.开发城市页面
+9.开发搜索结果页面
+10.开发详情页
+11开发登陆页面
+12.收藏和购买
+13.开发用户中心页
+14.评价功能
